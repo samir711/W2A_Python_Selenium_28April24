@@ -81,14 +81,39 @@ INTEGER DATA TYPE
 # JAVA --> -2147483648 to 2147483647
 # PYTHON --> NO LIMIT ON HOW LONE THE INTEGER VALUE CAN BE
 
-#INTEGERS are represented in 4 types
+# a. INTEGERS are represented in 4 types
 # DECIMAL FORM (base 10) ---> any number between 0-9
 a = 123234
 
-# BINARY FORM (base 2) ---> represent the numbers
-b=1111
+# BINARY FORM (base 2) ---> represent the numbers - prefix Zero  and small b or capital B
+b=0b1111
 print(b)
+b2 = 15
+print(bin(b2))
 
-# OCTAL FORM (base 8) ---> represents te between 0 -7
+# OCTAL FORM (base 8) ---> represents te between 0 -7 - prefix with Zero and small o or capital O
 c=0o123
 print(c)
+c2 = 83
+print(oct(c2))
+
+# HEXADECIMAL FORM (base 16) ---> represents the number between 0-9 and alphabets A-F - prefix with Zero and small x or capital X
+d = 0Xface
+print(d)
+"""
+FLOAT DATA TYPE
+--> A number with a decimal point is a floating point number
+"""
+f = -12.1223
+print(type(f))
+
+f = 1.2e3
+print(f)
+
+"""
+COMPLEX DATA TYPE
+---> A number which contains a real part and imaginary part
+"""
+x = 10 + 20j
+print(x)
+print(type(x))
