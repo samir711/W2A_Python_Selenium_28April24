@@ -1,0 +1,47 @@
+URL - https://www.way2automation.com/way2auto_jquery/registration.php#load_box
+
+
+
+# What is selenium?
+--> Open source tool which is used for web based automation.
+
+# How to install selenium?
+--> pip install selenium
+
+# LOCATORS
+--> These are the methods to find unique elements in the web
+
+1. ID
+2. XPATH
+3. CSS
+4. CLASSNAME
+5. NAME
+6. LINK TEXT
+7. PARITIAL LINK TEXT
+8 TAG NAME
+
+# FRAMEWORKS
+--> This is completely dependent on the requirements
+1. POM (Page Object Model)
+2. Data Driven framework
+3. BDD
+4. ROBOT FRAMEWORK (Keyword based framework)
+5. Hybrid Framework
+
+--> Folder Structure
+1. Pages --> This contains all the functionality of the respective page
+2. TestCases --> Contains the test cases
+3. Utility --> Contains all the common code, or the base class or some other utilities
+4. TestData -->
+
+XPATH
+/ -- Absolute Path
+// --> Relative Path
+
+//tagname[@attribute=value]
+//tagname[text
+
+
+
+
+
